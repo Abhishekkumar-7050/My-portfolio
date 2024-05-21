@@ -1,6 +1,8 @@
 import React from 'react'
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
 import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { FaXTwitter } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -13,10 +15,29 @@ const Media = () => {
               <FaFacebookF />
             </span>
             <span className="bannerIcon">
-              <FaTwitter />
+              
+              <Link
+                      to={
+                        "https://x.com/AbhishekV7050"
+                      }
+                    >
+                      {" "}
+                      <FaXTwitter />
+                      
+                    </Link>
             </span>
             <span className="bannerIcon">
+              
+              <Link
+                      to={
+                        "https://www.linkedin.com/in/abhishek-kumar-76802b2a6/"
+                      }
+                    >
+                      {" "}
               <FaLinkedinIn />
+                      
+                    </Link>
+
             </span>
           </div>
         </div>
