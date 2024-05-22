@@ -1,10 +1,11 @@
 import React,{useState} from 'react'
 import Title from '../layouts/Layout';
 import ContactLeft from './Leftcontact';
+import { axiosClient } from "../../../utils/axiosClient";
 
 const Contact = () => {
-  const [username, setUsername] = useState("");
-  const [phoneNumber, setPhoneNumber] = useState("");
+  const [name, setname] = useState("");
+  const [mobile, setMobile] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
@@ -19,11 +20,11 @@ const Contact = () => {
   };
   // ========== Email Validation end here ================
 
-  const handleSend = (e) => {
+  const handleSend = async(e) => {
     e.preventDefault();
-    if (username === "") {
+    if (name === "") {
       setErrMsg("Username is required!");
-    } else if (phoneNumber === "") {
+    } else if (mobile === "") {
       setErrMsg("Phone number is required!");
     } else if (email === "") {
       setErrMsg("Please give your Email!");
@@ -35,16 +36,37 @@ const Contact = () => {
       setErrMsg("Message is required!");
     } else {
       setSuccessMsg(
-        `Thank you dear ${username}, Your Messages has been sent Successfully!`
+        `Thank you dear ${name}, Your Messages has been sent Successfully!`
       );
       setErrMsg("");
-      setUsername("");
+      setname("");
       setPhoneNumber("");
       setEmail("");
       setSubject("");
       setMessage("");
     }
+   
+    try {
+      const sendRespons =  await axiosClient.post('/sendMessage/',{
+        name,
+        email,
+        mobile,
+        subject,
+        message
+      });
+      // console.log("respons is", sendRespons);
+
+    } catch (error) {
+      // console.log("error is", error);
+      Promise.reject.error;
+      
+    }
+
+
+
   };
+ 
+
   return (
     <section
       id="contact"
@@ -74,8 +96,8 @@ const Contact = () => {
                     Your name
                   </p>
                   <input
-                    onChange={(e) => setUsername(e.target.value)}
-                    value={username}
+                    onChange={(e) => setname(e.target.value)}
+                    value={name}
                     className={`${
                       errMsg === "Username is required!" &&
                       "outline-designColor"
@@ -88,8 +110,8 @@ const Contact = () => {
                     Phone Number
                   </p>
                   <input
-                    onChange={(e) => setPhoneNumber(e.target.value)}
-                    value={phoneNumber}
+                    onChange={(e) => setMobile(e.target.value)}
+                    value={mobile}
                     className={`${
                       errMsg === "Phone number is required!" &&
                       "outline-designColor"
@@ -142,7 +164,7 @@ const Contact = () => {
               </div>
               <div className="w-full">
                 <button
-                  onClick={handleSend}
+                  onClick={handleSend} 
                   className="w-full h-12 bg-[#141518] rounded-lg text-base text-gray-400 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px] hover:border-designColor border-transparent"
                 >
                   Send Message
