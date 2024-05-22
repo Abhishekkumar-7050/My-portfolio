@@ -40,12 +40,12 @@ const Contact = () => {
       );
       setErrMsg("");
       setname("");
-      setPhoneNumber("");
+      setMobile("");
       setEmail("");
       setSubject("");
       setMessage("");
     }
-   
+    // console.log("name",name);
     try {
       const sendRespons =  await axiosClient.post('/sendMessage/',{
         name,
