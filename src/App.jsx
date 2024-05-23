@@ -14,9 +14,9 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='w-full h-auto bg-bodyColor text-lightText px-5'>
+    <div className='w-full h-auto bg-bodyColor text-lightText px-3 sm:px-5'>
        <Navbar/>
-      <div className='max-w-screen-2xl mx-auto px-16 '>
+      <div className='max-w-screen-2xl px-0 sm:px-16 mx-auto  '>
       
        <Banner/>
        <Features/>
