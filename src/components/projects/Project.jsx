@@ -55,10 +55,9 @@ const Projects = () => {
                 </div>
               </div>
               <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Accusamus, assumenda, dolorum voluptates iure quo ullam sapiente
-                perspiciatis debitis fugit quam natus maiores praesentium
-                recusandae quod, quibusdam rerum? Pariatur, qui minima!
+               It may take some time to load because free webservice used . first click logout button and sign up and login...
+               This project is a social media application . including the authentication , file handling , user can update profile , create post, like post, follow suggestions  can see any user profile.
+               Technology used react , scss, node js ,  Mongodb Atlas Datatabase, Cloudinary etc.
               </p>
             </div>
           </div>
@@ -97,10 +96,9 @@ const Projects = () => {
                 </div>
               </div>
               <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Accusamus, assumenda, dolorum voluptates iure quo ullam sapiente
-                perspiciatis debitis fugit quam natus maiores praesentium
-                recusandae quod, quibusdam rerum? Pariatur, qui minima!
+              It may take some time to load because free webservice used .
+              This is the ecommerce app where user can buy poster , add in cart and checkout to payments and confirm order, can select catecories of item and sort item.
+              Technologies used strapi react  cloudinary postgrace Datatabase 
               </p>
             </div>
           </div>
@@ -139,10 +137,9 @@ const Projects = () => {
                 </div>
               </div>
               <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Accusamus, assumenda, dolorum voluptates iure quo ullam sapiente
-                perspiciatis debitis fugit quam natus maiores praesentium
-                recusandae quod, quibusdam rerum? Pariatur, qui minima!
+                The is Frontend  of learnig app, in this app we handled  navigation and routing
+           A learning webpage serves as an interactive platform designed to facilitate the acquisition and dissemination of knowledge on a particular subject or skill. It typically offers a variety of educational 
+              Used React. 
               </p>
             </div>
           </div>

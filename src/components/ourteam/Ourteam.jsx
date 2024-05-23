@@ -140,7 +140,7 @@ const Ourteam = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                  role in the software development process by handling both front-end and back-end aspects of a project. They possess a wide range of skills, including proficiency in programming languages, frameworks, and databases.
+                  Role in the software development process by handling both front-end and back-end aspects of a project. They possess a wide range of skills, including proficiency in programming languages, frameworks, and databases.
                   </p>
                 </div>
               </div>
@@ -172,7 +172,7 @@ const Ourteam = () => {
                   <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
-                        WORK ON MANY PROJECTS
+                       FULL STACK DEVELOPER
                       </h3>
                       <p className="text-base text-gray-400 mt-3">
                         via Upwork - Mar 4, 2022 - 
@@ -187,7 +187,7 @@ const Ourteam = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                  role in the software development process by handling both front-end and back-end aspects of a project. They possess a wide range of skills, including proficiency in programming languages, frameworks, and databases.
+                  Role in the software development process by handling both front-end and back-end aspects of a project. They possess a wide range of skills, including proficiency in programming languages, frameworks, and databases.
                   </p>
                 </div>
               </div>
@@ -234,7 +234,7 @@ const Ourteam = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                  the architects of user experiences on the web. They specialize in crafting visually appealing and interactive interfaces that engage users and enhance usability.
+                  The architects of user experiences on the web. They specialize in crafting visually appealing and interactive interfaces that engage users and enhance usability.
                   </p>
                 </div>
               </div>
