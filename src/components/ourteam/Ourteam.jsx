@@ -140,11 +140,7 @@ const Ourteam = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                  role in the software development process by handling both front-end and back-end aspects of a project. They possess a wide range of skills, including proficiency in programming languages, frameworks, and databases.
                   </p>
                 </div>
               </div>
@@ -191,11 +187,7 @@ const Ourteam = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                  role in the software development process by handling both front-end and back-end aspects of a project. They possess a wide range of skills, including proficiency in programming languages, frameworks, and databases.
                   </p>
                 </div>
               </div>
@@ -242,11 +234,7 @@ const Ourteam = () => {
                     </div>
                   </div>
                   <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
-                    dolorum, eos natus ipsum numquam veniam officia
-                    necessitatibus ratione quos debitis exercitationem
-                    repudiandae facilis id neque nihil accusantium perspiciatis
-                    repellat? Iste.
+                  the architects of user experiences on the web. They specialize in crafting visually appealing and interactive interfaces that engage users and enhance usability.
                   </p>
                 </div>
               </div>

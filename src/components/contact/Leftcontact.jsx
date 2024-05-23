@@ -18,14 +18,13 @@ const ContactLeft = () => {
           Full Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+        Role in the software development process by handling both front-end and back-end aspects of a project. They possess a wide range of skills, including proficiency in programming languages, frameworks, and databases.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+968 97859628</span>
+          Phone: <span className="text-lightText">+91 7465057050</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">abhishekofficial70502gmail.com</span>
+          Email: <span className="text-lightText">abhishekofficia7050gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
